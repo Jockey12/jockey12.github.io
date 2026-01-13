@@ -6,7 +6,7 @@ export function Footer() {
         <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
           Built by Jockey12. The source code is available on{" "}
           <a
-            href="https://github.com/Jockey12/portfolio-njs"
+            href="https://github.com/Jockey12/jockey12.github.io"
             target="_blank"
             rel="noreferrer"
             className="font-medium underline underline-offset-4"

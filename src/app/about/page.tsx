@@ -35,7 +35,7 @@ export default async function AboutPage() {
           <div className="flex flex-col gap-2">
             <h3 className="font-semibold">Connect</h3>
             <a href={user.html_url} target="_blank" className="text-sm text-muted-foreground hover:underline">GitHub</a>
-            {user.blog && <a href={user.blog} target="_blank" className="text-sm text-muted-foreground hover:underline">Website</a>}
+            {user.blog && <a href="https://onur-genc.vercel.app" target="_blank" className="text-sm text-muted-foreground hover:underline">Website</a>}
             {user.twitter_username && <a href={`https://twitter.com/${user.twitter_username}`} target="_blank" className="text-sm text-muted-foreground hover:underline">Twitter</a>}
           </div>
         </div>
